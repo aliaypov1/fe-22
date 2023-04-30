@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Header.module.css'
 import MyButton from '../UI/MyButton/FirstButton';
+import Logout from '../Logout/Logout';
 const Header = () => {
     return (
         <header className={style.header}>
@@ -15,6 +16,7 @@ const Header = () => {
                 
             </nav>
             <nav>
+                <Logout></Logout>
                 <MyButton>Оставить заявку</MyButton>
             </nav>
             

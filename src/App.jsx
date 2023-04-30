@@ -4,6 +4,7 @@ import './App.css'
 import Login from "./Components/Form/Login";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
+import ForgotPassword from "./Components/Form/ForgotPassword";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
         {/* <Register/> */}
         {/* <Header/> */}
         {/* <About/> */}
-      <Login/>
+      {/* <Login/> */}
+      <ForgotPassword/>
+    
     </div>
   );
 }
