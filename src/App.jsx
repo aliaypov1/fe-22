@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
         {/* <Register/> */}
-        {/* <Header/> */}
-        {/* <About/> */}
+        <Header/>
+        <About/>
       {/* <Login/> */}
-      <ForgotPassword/>
+      {/* <ForgotPassword/> */}
     
     </div>
   );

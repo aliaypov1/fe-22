@@ -7,7 +7,7 @@ const ErrorAlert = ({open}) => {
             <Space
                 direction="vertical"
                 style={{
-                    width: '100%',
+                    width: '30%',
                 }}
             >
                 <Alert message="Ошибка попробуйте снова" 
